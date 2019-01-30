@@ -7,3 +7,9 @@ git rebase -i 3a4226     填的是第N个commit的版本号，即合并这个com
 git push -f 强制push
 注意其他人的提交
 ```
+2. 正在编辑，拉去远程代码
+```
+git stash save "test-stash"
+git pull --rebase
+git stash pop
+```
