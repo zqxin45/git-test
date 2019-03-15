@@ -13,4 +13,3 @@ git stash save "test-stash"
 git pull --rebase
 git stash pop
 ```
-3. git revert
